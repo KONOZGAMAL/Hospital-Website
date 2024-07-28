@@ -1,6 +1,6 @@
-# React + Vite
+Hospital Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Welcome to the Hospital Landing Page project, built with React.js, Tailwind CSS, i18next , and Aos. This modern and responsive landing page is designed for hospitals and healthcare institutions to showcase their services and provide essential information to visitors.
 
 Currently, two official plugins are available:
 
