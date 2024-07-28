@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  /* Scrollbar modification */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #b9ceee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #6aa6ff;
+}
+
+ 
