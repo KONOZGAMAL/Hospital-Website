@@ -11,6 +11,16 @@
     font-family: 'Varela Round', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+  }
   /* Scrollbar modification */
   ::-webkit-scrollbar {
     width: 8px;

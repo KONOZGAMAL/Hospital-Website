@@ -27,33 +27,33 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div
-      className={`flex items-center justify-between ${
-        isTopOfPage ? " " : "bg-[#84ceff]"
-      } transition fixed top-0 left-0 z-30 w-full p-5 md:px-16`}
-    >
-      <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
-      <div className="flex items-center flex-row-reverse md:flex-row  gap-10 lg:gap-20">
-        <NavBar />
-        <div>
-          <p
-            className="font-bold items-center text-xl cursor-pointer"
-            onClick={() => {
-              if (i18n.language == "ar") {
-                i18n.changeLanguage("en");
-                document.body.classList.add("en");
-                document.body.setAttribute("dir", "ltr");
-              } else {
-                i18n.changeLanguage("ar");
-                document.body.classList.remove("en");
-                document.body.setAttribute("dir", "rtl");
-              }
-            }}
-          >
-            {i18n.language == "ar" ? "English" : "عربي"}
-          </p>
+      <div
+        className={`flex items-center justify-between ${
+          isTopOfPage ? " " : "bg-[#84ceff]"
+        } transition sticky top-0 left-0 z-30 p-5 md:px-16`}
+      >
+        <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
+        <div className="flex items-center flex-row-reverse md:flex-row  gap-10 lg:gap-20">
+          <NavBar />
+          <div>
+            <p
+              className="font-bold items-center text-xl cursor-pointer"
+              onClick={() => {
+                if (i18n.language == "ar") {
+                  i18n.changeLanguage("en");
+                  document.body.classList.add("en");
+                  document.body.setAttribute("dir", "ltr");
+                } else {
+                  i18n.changeLanguage("ar");
+                  document.body.classList.remove("en");
+                  document.body.setAttribute("dir", "rtl");
+                }
+              }}
+            >
+              {i18n.language == "ar" ? "English" : "عربي"}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="lg:text-7xl text-4xl font-bold">
             {t("Your Health Is Our Top Priority")}
           </h1>
-          <p className="text-lg md:text-base lg:text-xl my-10">
+          <p className="text-[1rem] md:text-base lg:text-xl my-10">
            {t("Securely share your comprehensive medical history with doctors and loved ones, for better communication and care.")}
           </p>
           <button className="bg-primary transition hover:bg-[#158ace] px-8 py-1 shadow-lg rounded-3xl text-white">

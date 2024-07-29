@@ -11,7 +11,7 @@ export default function Service({
     setActiveServices(_id);
   };
   return (
-    <div className="grid grid-cols-3 gap-5" data-aos="fade-left">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 m-5" data-aos="fade-left">
       {service.map((item) => (
         <div
           key={item.id}
