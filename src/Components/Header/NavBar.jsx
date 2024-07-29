@@ -7,9 +7,9 @@ export default function NavBar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveMediumScreens = useMediaQuery("(min-width: 900px)");
   const { t } = useTranslation();
- 
+
   return (
-    <nav>
+    <nav className="relative">
       {isAboveMediumScreens && (
         <ul className="flex justify-between font-bold items-center gap-20 text-xl">
           <li>
