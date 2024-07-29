@@ -11,7 +11,8 @@ export default {
         secondary: '#75c6fc', 
         background: '#f7f7f7',
         mainColor: '#9ae7ff',
-        activeColor:"#6adcff"
+        activeColor:"#6adcff",
+        textColor:"#1d4d85"
       },
     },
     screens: {

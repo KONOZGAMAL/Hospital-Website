@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 export default function Review() {
   const { t } = useTranslation();
   return (
-    <section className="pt-24 md:pt-32" data-aos="zoom-in">
+    <section className="pt-24 md:pt-32" data-aos="zoom-in" id="reviews">
       <h2 className="text-4xl font-bold text-center mb-10">{t("Patient Feedback")}</h2>
       <div className="items-center flex flex-col md:flex-row justify-center gap-5">
         {users.map((items) => (

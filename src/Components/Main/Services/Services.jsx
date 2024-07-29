@@ -9,7 +9,7 @@ export default function Services() {
   const [activeServices, setActiveServices] = useState("Cardiology");
   const { t } = useTranslation();
   return (
-    <section className="pt-24 md:pt-32">
+    <section className="pt-24 md:pt-32" id="services">
       <h2 className="text-4xl font-bold text-center mb-10">{t("Services")}</h2>
       <div className="flex justify-between flex-col lg:flex-row gap-10 lg:gap-5">
         <Service

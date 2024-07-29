@@ -9,7 +9,7 @@ function App() {
     AOS.init();
   }, [])
   return (
-    <div className="text-[#1d4d85] app min-w-[280px] min-h-screen bg-background">
+    <div className="text-textColor app min-w-[280px] min-h-screen bg-background">
       <Header />
       <Main />
       <Footer />

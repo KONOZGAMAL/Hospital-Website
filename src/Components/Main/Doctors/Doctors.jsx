@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export default function Doctors() {
   const { t } = useTranslation();
   return (
-    <section className="pt-24 md:pt-32">
+    <section className="pt-24 md:pt-32" id="doctors">
     <h2 className="text-4xl font-bold text-center mb-10">{t("Meet Our Specialists")}</h2>
     <Doctor/>
     <div className="pt-20 md:pt-24" data-aos="fade-up">
