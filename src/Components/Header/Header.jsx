@@ -30,7 +30,7 @@ export default function Header() {
     <div
       className={`flex items-center justify-between ${
         isTopOfPage ? " " : "bg-[#84ceff]"
-      } transition fixed top-0 z-30 w-full p-5 md:px-16`}
+      } transition fixed top-0 left-0 z-30 w-full p-5 md:px-16`}
     >
       <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
       <div className="flex items-center flex-row-reverse md:flex-row  gap-10 lg:gap-20">
